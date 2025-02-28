@@ -8,7 +8,7 @@ Criar uma API REST para gerenciar pedidos de um sistema simples de marketplace, 
 ## 📂 **Estrutura do Projeto**
 ```
 fullstack-test/
-│── backend/            # API em Node.js (NestJS ou Express)
+│── backend/            # API em Node.js (NestJS)
 │   │── src/
 │   │   │── modules/
 │   │   │   ├── pedidos/         # Módulo de pedidos
@@ -29,7 +29,7 @@ fullstack-test/
 │   │── package.json
 │   │── README.md
 │
-│── docker-compose.yml  # Orquestração dos containers (API, MySQL, Redis, RabbitMQ)
+│── docker-compose.yml  # Orquestração dos containers (API, PostgreSQL, Redis, RabbitMQ)
 │── README.md           # Documentação principal do projeto
 ```
 
@@ -40,7 +40,7 @@ fullstack-test/
 ### Backend
 - **Node.js (NestJS ou Express)** → Framework para API
 - **TypeScript** → Melhor organização e segurança no código
-- **MySQL/PostgreSQL** → Banco de dados relacional
+- **PostgreSQL** → Banco de dados relacional
 - **Redis** → Cache de pedidos para otimizar performance
 - **RabbitMQ** → Mensageria para processar pedidos em background
 - **JWT** → Autenticação segura
