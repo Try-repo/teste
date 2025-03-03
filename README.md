@@ -171,7 +171,7 @@ Isso retorna um **token JWT**, que deve ser usado nas próximas requisições.
 
 ## 📅 Prazo de Entrega
 
-O prazo para entrega do teste é **12/03/2025**.
+O prazo para entrega do teste é **15/03/2025**.
 
 Para concluir sua entrega:
 1. **Finalize suas implementações** dentro da sua branch.
