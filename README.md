@@ -9,9 +9,8 @@ Criar uma **API REST** para gerenciar pedidos de um **sistema simples de marketp
 
 ### 📌 O que já está pronto?
 ✅ **Dockerfile e Docker Compose** (Você pode modificar se necessário).  
-✅ **Estrutura base da API (`backend/`)** (Com `package.json`, `tsconfig.json` e diretórios, você pode modificar se necessário).  
-✅ **Configuração de banco de dados, Redis e RabbitMQ no Docker**.   
-✅ **O diretório src/ já está criado e contém um conteúdo básico apenas para a Docker funcionar. Você pode modificar e expandir conforme necessário para implementar a solução**.
+✅ **Estrutura base da API (`backend/`)** (Contendo package.json, tsconfig.json e os arquivos essenciais para rodar o Docker. Você pode modificar conforme necessário e adicionar o restante da estrutura).  
+✅ **Configuração de banco de dados, Redis e RabbitMQ no Docker**.
 
 ### 📌 O que você precisa fazer?
 🔹 **Criar os endpoints na API (`POST /pedidos`, `GET /pedidos/:id`, `GET /pedidos`)**.  
@@ -19,7 +18,8 @@ Criar uma **API REST** para gerenciar pedidos de um **sistema simples de marketp
 🔹 **Configurar a comunicação com RabbitMQ para processar pedidos**.  
 🔹 **Adicionar cache no Redis e invalidá-lo quando necessário**.  
 
-### 📌 Estrutura inicial do projeto:
+### 📌 Estrutura inicial do projeto (Sugestão):
+A estrutura abaixo é apenas uma sugestão para organização do projeto. O candidato pode seguir este modelo ou estruturar de outra forma, conforme achar melhor.
 ```
 fullstack-test/
 │── backend/            # API em Node.js (NestJS)
