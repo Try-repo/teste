@@ -169,6 +169,15 @@ Isso retorna um **token JWT**, que deve ser usado nas próximas requisições.
 
 ---
 
-## ❓ Dúvidas
-Caso tenha dúvidas sobre o teste, entre em contato com o recrutador responsável.  
-Boa sorte! 🚀
+## 📅 Prazo de Entrega
+
+O prazo para entrega do teste é **12/03/2025**.
+
+Para concluir sua entrega:
+1. **Finalize suas implementações** dentro da sua branch.
+2. **Faça o push do código** para o repositório.
+3. **Crie um Pull Request (PR)** para revisão antes do prazo final.
+
+Caso precise de mais tempo ou tenha dúvidas, entre em contato conosco.
+
+Boa sorte! 🚀  
