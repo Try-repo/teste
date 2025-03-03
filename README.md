@@ -10,8 +10,8 @@ Criar uma **API REST** para gerenciar pedidos de um **sistema simples de marketp
 ### 📌 O que já está pronto?
 ✅ **Dockerfile e Docker Compose** (Você pode modificar se necessário).  
 ✅ **Estrutura base da API (`backend/`)** (Com `package.json`, `tsconfig.json` e diretórios, você pode modificar se necessário).  
-✅ **Configuração de banco de dados, Redis e RabbitMQ no Docker**.  
-✅ **Diretório `src/` já criado, mas os arquivos principais estão vazios para você implementar**.  
+✅ **Configuração de banco de dados, Redis e RabbitMQ no Docker**.   
+✅ O diretório src/ já está criado e contém um conteúdo básico apenas para a Docker funcionar. Você pode modificar e expandir conforme necessário para implementar a solução.
 
 ### 📌 O que você precisa fazer?
 🔹 **Criar os endpoints na API (`POST /pedidos`, `GET /pedidos/:id`, `GET /pedidos`)**.  
@@ -27,11 +27,13 @@ fullstack-test/
 │   │   │── modules/
 │   │   │   ├── pedidos/         # (Você deve criar esse módulo)
 │   │   │   ├── auth/            # (Você deve criar esse módulo)
-│   │   │── main.ts              # (Arquivo inicial vazio - você deve implementá-lo)
-│   │   │── app.module.ts        # (Você deve criar esse módulo principal)
+│   │   │── main.ts              # (Arquivo com conteúdo basico - você deve implementá-lo)
+│   │   │── app.module.ts        # (Arquivo com conteúdo basico - você deve implementá-lo)
+│   │   │── app.controller.ts    # (Arquivo com conteúdo basico - você deve implementá-lo)
 │   │── test/                    # Testes unitários (Opcional)
 │   │── Dockerfile               # Dockerfile para API (Pronto, mas você pode modificar)
 │   │── package.json             # Dependências do projeto (Pronto , você pode modificar se necessário)
+│   │── tsconfig.json            # Configuração do TypeScript (Pronto , você pode modificar se necessário)
 │   │── README.md                # Documentação do backend
 │
 │── frontend/           # Aplicação Vue.js para consumir a API (Opcional)
