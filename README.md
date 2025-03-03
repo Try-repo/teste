@@ -11,7 +11,7 @@ Criar uma **API REST** para gerenciar pedidos de um **sistema simples de marketp
 ✅ **Dockerfile e Docker Compose** (Você pode modificar se necessário).  
 ✅ **Estrutura base da API (`backend/`)** (Com `package.json`, `tsconfig.json` e diretórios, você pode modificar se necessário).  
 ✅ **Configuração de banco de dados, Redis e RabbitMQ no Docker**.   
-✅ O diretório src/ já está criado e contém um conteúdo básico apenas para a Docker funcionar. Você pode modificar e expandir conforme necessário para implementar a solução.
+✅ **O diretório src/ já está criado e contém um conteúdo básico apenas para a Docker funcionar. Você pode modificar e expandir conforme necessário para implementar a solução**.
 
 ### 📌 O que você precisa fazer?
 🔹 **Criar os endpoints na API (`POST /pedidos`, `GET /pedidos/:id`, `GET /pedidos`)**.  
