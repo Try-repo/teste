@@ -142,6 +142,16 @@ Isso sobe os serviços:
 - **Mensageria (RabbitMQ)** → Porta `5672`
 - **Cache (Redis)** → Porta `6379`
 
+## 🚀 Hot Reload (Opcional)
+
+Por padrão, o backend **não tem hot reload ativado**. Isso significa que, se fizer alterações no código, será necessário **reiniciar os containers** manualmente:
+
+```sh
+docker-compose down && docker-compose up --build
+```
+
+Mas sinta-se à vontade para instalar, se preferir.
+
 ### **3️⃣ Testar Endpoints (Exemplo com cURL)**
 ```sh
 # Criar um novo pedido
